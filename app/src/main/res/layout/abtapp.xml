@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_800"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/beaut"
+        android:gravity="center"
+        android:text="Product Scanner"
+        android:textColor="@color/md_white_1000"
+        android:textSize="70dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Product scanner application lets users to scan the perticular barcode
+or qrcode of the inventory products to store the information of the barcode in the database and the later also user can extract the information of the database and view accordingly."
+        android:textColor="@color/md_white_1000"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/helvetica"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:fontFamily="@font/helvetica"
+        android:text="Technology:"
+        android:textColor="@color/md_white_1000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/helvetica"
+        android:text="1. Android Studio"
+        android:textColor="@color/md_white_1000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/helvetica"
+        android:text="2. Google FireBase"
+        android:textColor="@color/md_white_1000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By:"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textSize="25dp"
+        android:fontFamily="@font/helvetica"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Niswarth V Shetty"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textSize="20dp"
+        android:fontFamily="@font/helvetica"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chirag M R"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textSize="20dp"
+        android:fontFamily="@font/helvetica"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deepika D P"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textSize="20dp"
+        android:fontFamily="@font/helvetica"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chinmayee"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textSize="20dp"
+        android:fontFamily="@font/helvetica"/>
+
+
+</LinearLayout>

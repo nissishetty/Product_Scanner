@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_800">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Scanner"
+        android:textColor="@color/md_white_1000"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="70dp"
+        android:fontFamily="@font/beaut"/>
+
+    <Button
+        android:id="@+id/prodscan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Add Product"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/md_white_1000"
+        android:textColor="@color/md_white_1000"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/prodview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Shop"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/md_white_1000"
+        android:textColor="@color/md_white_1000"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="About App"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/md_white_1000"
+        android:textColor="@color/md_white_1000"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

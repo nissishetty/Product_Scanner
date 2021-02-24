@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_800">
+
+
+    <EditText
+        android:id="@+id/scanid"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawablePadding="10dp"
+        android:hint="Barcode"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:textSize="15sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/prodname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawablePadding="10dp"
+        android:hint="Product Name"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:textSize="15sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/prodcat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawablePadding="10dp"
+        android:hint="Product Category"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:textSize="15sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/prodmrp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawablePadding="10dp"
+        android:hint="MRP"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:textSize="15sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/prodexp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawablePadding="10dp"
+        android:hint="Expiry"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:textSize="15sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/prodscan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Scan"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/md_white_1000"
+        android:textColor="@color/md_white_1000"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/adddata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Add Product"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/md_white_1000"
+        android:textColor="@color/md_white_1000"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/clearbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Clear"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="@color/md_white_1000"
+        android:textColor="@color/md_white_1000"
+        android:textAllCaps="false"/>
+
+
+
+
+
+</LinearLayout>

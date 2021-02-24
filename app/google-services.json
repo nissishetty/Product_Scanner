@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "619784696122",
+    "firebase_url": "https://productscanner-23bfc.firebaseio.com",
+    "project_id": "productscanner-23bfc",
+    "storage_bucket": "productscanner-23bfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619784696122:android:928dffaf44b4f1181aa003",
+        "android_client_info": {
+          "package_name": "com.niswarth.product_scanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619784696122-i11b91cul2u7a2p0ufe6kn6v07pvqe58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.niswarth.product_scanner",
+            "certificate_hash": "ecc89ae3a96185071462a2c3a7a2c67933686b37"
+          }
+        },
+        {
+          "client_id": "619784696122-4voir5d7amfhjclkfdqsu557hq88islr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg72gKH-ehJIRLcZ3mzKhDZHo2iGlfiJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619784696122-4voir5d7amfhjclkfdqsu557hq88islr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
